@@ -1,0 +1,63 @@
+/* @override
+	https://www.donortools.minimac/stylesheets/print-www.css
+	https://www.donortools.local:3000/stylesheets/print-www.css
+*/
+.page-break { page-break-after: always }
+body,
+.container { background: white!important; background-image: none!important; margin:10px 20px;}
+#heading h2,
+#heading h3,
+#heading h3 a { background: none; text-indent: 0; color: #000; text-shadow: none; height: auto; }
+#heading, #page, #page-menu,#footer { background: white!important; color: #000;}
+#heading h1, #heading h2{ margin: 0;}
+#heading h1 a{
+  text-decoration: none;
+}
+#heading h2,
+#heading h3{
+  font-family: MuseoThree, "Century Gothic", "Futura Medium", "Apple Gothic", Helvetica, Arial, sans-serif;
+  font-weight: lighter;
+}
+#heading h3{
+  font-size: 100%;
+}
+.noprint,
+.no-print,
+#site_navigation,
+#nav-features,
+#zenbox_tab { display: none!important; }
+#print_screen_shot_free_trial { position: relative; }
+#home h2#screen_shot { float: right; }
+#home h2#free_trial { position: absolute; top: -20px; right: -20px; z-index: 2; display: inline; }
+#home h2#signup { display: none; }
+#home #segments { margin-bottom: 4em; }
+#segments p,
+#segments h3 { margin-bottom: 0; }
+#segments div { margin-top: 1em; }
+#segments div a { display: none; }
+#home #features { float: left; font-size: 110%; width: 450px; }
+li,p{font-size:120%;}
+#home #features ul { list-style: disc; }
+div.signup img{ display: none;}
+div.signup a:after{content:attr(title); font-size: 130%; font-weight: bold;}
+div.signup a:after{content:attr(title); font-size: 130%; font-weight: bold;}
+#features li strong:after{content:": ";}
+
+.noscreen{ display: block!important; }
+hr.tall { margin: 1em 0; }
+
+#main{ padding-top: 0; }
+#heading{ padding-left: 0px; }
+#footer a{ color: #000; }
+
+.content.span-16{
+  width: 100%;
+}
+img.border{
+  border: 1px solid #333;
+  display:block;
+  clear:both;
+}
+p img{
+  display:block;
+}

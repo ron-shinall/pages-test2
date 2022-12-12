@@ -1,0 +1,1365 @@
+<!DOCTYPE html>
+<html xml:lang='en' xmlns='https://www.w3.org/1999/xhtml'>
+<head>
+<meta content='text/html;charset=UTF-8' http-equiv='content-type'>
+<title>Version History</title>
+<meta content='' name='description'>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="../assets/application.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="../assets/typography.css" media="print" rel="stylesheet" type="text/css" />
+<link href="../stylesheets/print-www.css" media="print" rel="stylesheet" type="text/css" />
+<!--[if IE 6]>
+<link href="../stylesheets/ie6.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="../stylesheets/navigation-userguide-ie6.css" media="screen" rel="stylesheet" type="text/css" />
+<![endif]-->
+<!--[if IE 7]>
+<link href="../stylesheets/navigation-userguide-ie6.css" media="screen" rel="stylesheet" type="text/css" />
+<![endif]-->
+<!--[if IE]>
+<link href="../stylesheets/ie.css" media="screen" rel="stylesheet" type="text/css" />
+<![endif]-->
+<link href="../assets/prettify.css" media="screen" rel="stylesheet" type="text/css" />
+<script>
+  var activeNav = 0;
+</script>
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-175340-14']);
+  _gaq.push(['_trackPageview']);
+</script>
+</head>
+<body class='about-us' id='about-us-version-history'>
+<div id='page'>
+<div id='page-menu'>
+<div class='container'>
+<div class='span-24 last' id='heading'>
+<h1 id='logo'><a href="https://www.donortools.com/">Donor Tools</a></h1>
+<h2 class='noscreen'>Version History</h2>
+
+<div id='site_navigation'>
+<ul>
+<!-- navigation_item "Home", "/", :selected_when => "", :id => "homepage", :no_span => true -->
+<!-- navigation_item "Features", "/features", :selected_when => "features" -->
+<!-- navigation_item "Pricing &amp; Signup", "/pricing", :selected_when => "pricing", :id => "navigation_pricing_signup" -->
+<!-- navigation_item "User Guide", "/userguide", {:selected_when => "userguide"} -->
+<!-- navigation_item "About Us", "/about-us", :selected_when => "about-us" -->
+<!-- = navigation_item "Blog", "https://blog.donortools.com", :selected_when => "blog" -->
+<li id="navigation_sign_in"><a href="https://my.donortools.com/users/sign_in"><span>Sign In</span></a></li>
+</ul>
+</div>
+<div class='landing-page-link' style='display:none'></div>
+<!-- = render :partial => "layouts/donor_tools_for_good" -->
+</div>
+
+<div class='span-24 last' id='main'>
+<div class='span-22 last prepend-1 append-1'>
+<h1>
+Current Version: 1.6.3
+</h1>
+<p style='line-height: 1.1em'>
+<strong>
+Donor Tools is
+about 15 years ago
+old
+</strong>
+<br>
+<small>Our first line of code was written in Austin, Texas on Wednesday, February 13 2008 at 12:04 PM.</small>
+</p>
+</div>
+<div class='clear'></div>
+<div class='about span-16 prepend-1 colborder version-history'>
+
+<h2 id="1611_released_mar_14_2015">1.6.11, released Mar 14, 2015</h2>
+
+<ul>
+<li>API: Improved error messages and feedback.</li>
+
+<li>API: Various minor API Improvements.</li>
+
+<li>Acknowledgements: Added validation on “cc” field for thank-you emails.</li>
+
+<li>Billing: Allow any user (even non-admins) to update billing information if it’s expired.</li>
+
+<li>Donor Self Service: Fixed a bug where Donor Self Service would not connect to your record if your record had your email address listed more than once.</li>
+
+<li>Duplicate checker: Duplicate checker is now more permissive and recognizes case differences.</li>
+
+<li>Export: Added several columns to donation export.</li>
+
+<li>Import: Added the ability to explicitly specify a “name type”, “address type” and “phone number type” columns.</li>
+
+<li>Letterhead: Added the ability to upload PDF files without first converting them to PNG or JPG</li>
+
+<li>PayPal IPN: IPN messages now updates existing donor records</li>
+
+<li>Quickbooks: Fixed a error in Quickbooks when exporting donations with long fund or source names.</li>
+
+<li>Search: Fixed a bug that would cause an error when search string contained certain characters.</li>
+
+<li>Smart Tags: Added “Between” field for smart tags. Now you can search donors with donation amounts between two different values.</li>
+
+<li>Various minor UI improvements.</li>
+
+<li>Various bug fixes and stability improvements.</li>
+</ul>
+
+<h2 id="1610_released_sept_9_2014">1.6.10, released Sept 9, 2014</h2>
+
+<ul>
+<li>Performance improvements when exporting data.</li>
+
+<li>Smart Tags: Added “between” option for querying donations between two dates.</li>
+</ul>
+
+<h2 id="169_released_july_30_2014">1.6.9, released July 30, 2014</h2>
+
+<ul>
+<li>Soft Credits &amp; Relationships: It is now possible to create a new donor from the Soft Credit screen - simply type the person’s name, and the soft credit or relationship will be created even if the person doesn’t yet exist.</li>
+
+<li>Numerous other bug fixes and feature improvements.</li>
+
+<li>Pefrormance improvement when exporting</li>
+
+<li>Fixed a bug that would sometimes incorrectly calculate the pledge’s end date.</li>
+</ul>
+
+<h2 id="168_released_may_5_2014">1.6.8, released May 5, 2014</h2>
+
+<ul>
+<li>Fixed a problem where “full_name” field would sometimes not be displayed in export file.</li>
+
+<li>Fixed a potential problem with reports using “this year” date range when the current time zone is across the date line.</li>
+
+<li>If a donor record is blank, the report will display the donor’s email address (if it is available) instead of “Blank Donor Name”.</li>
+
+<li>Fixed a bug in smart tags that would pull up records incorrectly based on blank email address.</li>
+
+<li>Bug fixes.</li>
+</ul>
+
+<h2 id="167_released_feb_28_2014">1.6.7, released Feb 28, 2014</h2>
+
+<ul>
+<li>Added the ability to browse IPN History under Settings/PayPal</li>
+</ul>
+
+<h2 id="166_released_jan_29_2014">1.6.6, released Jan 29, 2014</h2>
+
+<ul>
+<li>Billing: You can now downgrade to a cheaper plan even if you are over the limit for those features (feature limits will still apply).</li>
+
+<li>Fixed a bug in pledges that would list the next payment date even if the pledge was paid.</li>
+
+<li>Bug fixes.</li>
+</ul>
+
+<h2 id="165_released_dec_23_2013">1.6.5, released Dec 23, 2013</h2>
+
+<ul>
+<li>Dashboard chart now starts on the year of the most recent donation, instead of always on the current year.</li>
+
+<li>Improved print view of Tax Receipt page.</li>
+</ul>
+
+<h2 id="164_released_nov_20_2013">1.6.4, released Nov 20, 2013</h2>
+
+<ul>
+<li>Acknowledgements - {{ donation.memo }} now will print out the split memo if the donation memo is blank.</li>
+
+<li>Export: Added “is company” to CSV export.</li>
+
+<li>Export: Added address to soft credit export.</li>
+
+<li>Export: Added columns to relationship export.</li>
+
+<li>Donor Overview: Added donation by fund report to donor overview page.</li>
+
+<li>Added donation filters on Persona page to allow sorting and filtering of a donor’s donations by fund and source, just like the main donation report.</li>
+
+<li>Import: Allow the persona report to view people imported even after the source file has been removed from storage.</li>
+
+<li>Search: Fixed an error that would occur when typing certain characters (such as “?”) into the search field.</li>
+
+<li>Import: Fixed a problem where downloaded CSV files would have their file extension stripped in Firefox.</li>
+
+<li>PayPal: Fixed a problem where PayPal wouldn’t match existing donor via email if the name didn’t match exactly.</li>
+
+<li>PayPal: Fixed a problem where recording donations from PayPal, when first recorded as “pending”, later updated to “completed”, do not reflect updated transaction fee.</li>
+
+<li>PayPal: Integration now correctly matches existing donors when names come in UPPERCASE.</li>
+
+<li>PayPal: Ignore adjustment messages.</li>
+
+<li>Improved performance when saving and deleting smart tags.</li>
+
+<li>Improved print CSS for invoices.</li>
+
+<li>Relationships: You can now type the name of a new person in the relationship form, and that person’s record will be created when the relationship is saved.</li>
+
+<li>Smart Tags: Added conditions for “donated to source last year” and “donated to source this year”</li>
+
+<li>Numerous improvements and bug fixes.</li>
+</ul>
+
+<h2 id="163_released_may_2_2013">1.6.3, released May 2, 2013</h2>
+
+<ul>
+<li>Imports: Fixed a bug where spouse name would sometimes be imported as “Donor Name”.</li>
+
+<li>Imports: Fixed a problem where CSV files saved with certain text formatting could not be imported.</li>
+
+<li>Thank-you letters: Fixed a formatting of A4-size letters.</li>
+</ul>
+
+<h2 id="162_released_apr_9_2013">1.6.2, released Apr 9, 2013</h2>
+
+<ul>
+<li>People Report: Now you can choose the number of records to show on a page.</li>
+
+<li>Merging people: fixed a problem where duplicate attributes might be retained.</li>
+
+<li>MailChimp: Improved integration, eliminating an error that sometimes occurred when syncing members with non-latin characters.</li>
+
+<li>MailChimp: fixed a problem where subscribers would be unsubscribed after merging the records in Donor Tools.</li>
+
+<li>Fixed an issue where tags would sometimes show up more than once.</li>
+
+<li>Imports: Fixed a CSS bug in Chrome that would cause the height of the table header to expand each time Tab key was pressed.</li>
+
+<li>PayPal: Changed “no_shipping” default to “Require address”.</li>
+
+<li>Improved date selection on birth date and important dates. The date field now displays a calendar popup that allows you to click on the desired date.</li>
+</ul>
+
+<h2 id="161_released_mar_11_2013">1.6.1, released Mar 11, 2013</h2>
+
+<ul>
+<li>Improved system performance for very large databases.</li>
+
+<li>Improved the accuracy of duplicate detector.</li>
+
+<li>Improved performance of MailChimp integration.</li>
+
+<li>Added the ability to export Important Dates.</li>
+
+<li>Added the ability to export Notes.</li>
+
+<li>Added the ability to export Relationships.</li>
+
+<li>Added smart tag condition for legacy id.</li>
+
+<li>Added smart tag conditions for donation check date and check number.</li>
+
+<li>Added smart tag condition for currency.</li>
+
+<li>Added the ability to specify the address type when uploading donors.</li>
+
+<li>Misc. bug fixes and improvements.</li>
+</ul>
+
+<h2 id="160_released_may_10_2012">1.6.0, released May 10, 2012</h2>
+
+<h3 id="data_import">Data Import</h3>
+
+<ul>
+<li>Improved performance when importing</li>
+
+<li>Improved importing of phone number, address, &amp; email labels.</li>
+
+<li>Hide trailing zeros in ids in import preview.</li>
+
+<li>Imports &amp; MailChimp - don’t sync people as they’re imported. Do a full sync after import is finished.</li>
+
+<li>Added the ability Lookup existing record by company name.</li>
+</ul>
+
+<h3 id="paypal_integration">PayPal Integration</h3>
+
+<ul>
+<li>Require shipping address per https://cms.paypal.com/us/cgi-bin/?cmd=_render-content&amp;content_ID=developer/e_howto_html_Appx_websitestandard_htmlvariables</li>
+
+<li>Added setting for “Require shipping address”</li>
+
+<li>PayPal Integration now picks up Source from “item_id” field.</li>
+
+<li>No longer sends auto-acknowledgement if “do not email” is set for the donor.</li>
+</ul>
+
+<h3 id="smart_tags">Smart Tags</h3>
+
+<ul>
+<li>Smart Tags: Now you can chain multiple conditions together using “and/or” operators for each condition, instead of having to select a single “and/or” statement for the entire smart tag.</li>
+
+<li>When a Smart Tag has malformed conditions, redirect to the edit page instead of raising an exception.</li>
+
+<li>Added smart tag condition for “donated to tax deductible fund”</li>
+
+<li>Added smart tag conditions for “Amount of any donation this year”</li>
+
+<li>Added conditions for “number of donations last year”</li>
+
+<li>Added smart tag starting points.</li>
+
+<li>Added tax deductible donation smart tag.</li>
+</ul>
+
+<h3 id="misc">Misc.</h3>
+
+<ul>
+<li>Improved API for emails.</li>
+
+<li>Numerous bug fixes and improvements.</li>
+
+<li>Improved the way “Recognition Name” is handled. Now instead of generating “Joe Donor and Jane Donor” it will generate “Joe and Jane Donor”. Also, preview is shown in the form when editing a donor.</li>
+
+<li>Added the ability to find potential duplicates by address or email address.</li>
+
+<li>Fixed a problem in MailChimp integration where deleting an email address in DT would not unsubscribe the address in MC.</li>
+</ul>
+
+<h2 id="154_released_oct_20_2011">1.5.4, released Oct 20, 2011</h2>
+
+<h3 id="new_features">New Features</h3>
+
+<ul>
+<li>New: MailChimp integration!</li>
+
+<li>New: Affiliate Referrals program: Now you can earn rewards for referring people to Donor Tools. Check on the status of your affiliate rewards under Settings/Affiliates</li>
+</ul>
+
+<h3 id="updates">Updates</h3>
+
+<ul>
+<li>Report Export: Added CSV export for important dates</li>
+
+<li>Report Export: Added fields to donations export.</li>
+
+<li>API: Added the ability to retrieve People records that have been created or updated since a specific point in time. To use, simply pass a datestamp (YYYY-MM-DD) in the “since” parameter, like this: <code>people.xml?since=2011-07-15</code>.</li>
+
+<li>API: Better exception handling for API requests.</li>
+
+<li>Imports: Better error message for file format error when uploading an Excel file.</li>
+
+<li>Imports: Improved reporting for import jobs, including elapsed time.</li>
+
+<li>Imports: Fixed a problem with mixed imports where ‘legacy_ids’ were not respected, sometimes resulting in duplicate donors. This only occurred when importing a mixed file into an empty account.</li>
+
+<li>Imports: When encountering an error on a line, the import tool no longer fails - it just loggs the error and keeps on truckin’. Closes #236 and closes #237.</li>
+
+<li>DonorTools can now accommodate total donation amounts larger than $21 million.</li>
+
+<li>Quickbooks Export Improvements: Added the ability to swap funds/sources. Added the ability to specify a different account for PayPal Transaction Fees.</li>
+
+<li>Minor change to the way a recognition name is generated. Now, if there are two names, it will string them together “Mr. Joe Donor and Mrs. Jane Donor” instead of only listing the first name. As always, you can override the recognition name in the “Edit Person” screen.</li>
+
+<li>Added Smart Tag condition for “Donated To Donation Type”.</li>
+
+<li>Tag suggest now automatically drops down suggestions when you click on it.</li>
+
+<li>Various bugfixes and improvements</li>
+</ul>
+
+<h2 id="153_released_july_19_2011">1.5.3, released July 19, 2011</h2>
+
+<h3 id="data_import_2">Data Import</h3>
+
+<ul>
+<li>Added the ability to specify Name Type and Address Type labels for names and addresses when importing. Name the column in your spreadsheet with the label as you want it to appear in your database. For example “Work”, “Home”, etc. The label must match a built-in type or existing custom type as defined under Settings/Custom Data Types.</li>
+
+<li>Better error messaging when import upload fails.</li>
+
+<li>Dialed down the verbosity of import messages.</li>
+
+<li>Fixed a bug in the Import Tool that is causing some large imports to fail, or to simply hang with a “processing” status. This is caused by a memory leak in our import process. This bug should only affect users importing files with more than 5,000 records.</li>
+
+<li>Fixed a problem where importing tags from Excel files sometimes resulted in tags being duplicated.</li>
+
+<li>Fixed a problem where legacy ids sometimes ended up with trailing zeros.</li>
+
+<li>Fixed a problem with parsing dates in American time format (M/D/YY) that included a time, such as “6/15/11 12:15”.</li>
+
+<li>Improved phone number parsing. Phone numbers stored in numeric columns are now correctly parsed and imported.</li>
+
+<li>New! Now the import tool tries to match existing donors by name.</li>
+
+<li>Return an error if donor is not found for a donation.</li>
+</ul>
+
+<h3 id="paypal_integration_2">PayPal Integration</h3>
+
+<ul>
+<li>PayPal Auto Acknowledgement now shows you a preview of what your auto-acknowledgement email will look like, including mail merge fields.</li>
+
+<li>PayPal: Fixed an error that was raised by PayPal IPN if the default source for an organization has been deleted.</li>
+
+<li>PayPal: Now it’s much easier to set up PayPal. PayPal is now a first-class citizen in the Settings section. Now, to set up your PayPal settings, go to Settings, and click PayPal.</li>
+</ul>
+
+<h3 id="smart_tags_2">Smart Tags</h3>
+
+<ul>
+<li>Smart Tags: Added conditions for date_of_first_donation and date_of_latest_donation.</li>
+
+<li>Smart Tags: Fixed a problem with selecting tags where “donated to fund IS NOT xyz”</li>
+</ul>
+
+<h3 id="api">API</h3>
+
+<ul>
+<li>Added more consistent response headers for XML pagination.</li>
+
+<li>Added the ability to easily get summary data in people.xml. Simply pass “include_summary_data=true” in the URL to include summary information, including: - Total Donations - Max Donation - Most Recent Donation Date - Most Recent Donation Amount - First Donation Date - First Donation Amount</li>
+
+<li>Fixed a “500 Application Error” error that would occur when trying to delete a fund or source via the API without specifying a replacement. Now, it will return a status 400 with an informative error message.</li>
+
+<li>Fixed a bug that would cause a 500 error if the user agent header is blank.</li>
+
+<li>Fixed an error where you could not assign personas to soft credits, as described in documentation.</li>
+
+<li>Standardized and protected XML format output.</li>
+</ul>
+
+<h3 id="miscelaneous_improvements_and_bug_fixes">Miscelaneous improvements and bug fixes</h3>
+
+<ul>
+<li>Prompt for a reason when inviting support user. You can invite the support user to your account by going to Settings, then Users, and then clicking “Invite Support User”.</li>
+
+<li>Support: Added built-in Support popup and contact form.</li>
+
+<li>Tag autosuggest: Tags are now case-insensitive.</li>
+
+<li>Updated welcome video.</li>
+</ul>
+
+<h2 id="152_released_june_7_2011">1.5.2, released June 7, 2011</h2>
+
+<ul>
+<li>Export CSV: Added fields to donations CSV export file.</li>
+
+<li>Export CSV: People CSV export now exports aggregate donation info by fiscal year.</li>
+
+<li>Fundraising pages: Improved HTML formatting when mixing html and plain text in fund pages</li>
+
+<li><a href="../api/03-funds">Funds API</a>: Added the ability to retrieve a list of donors to a particular fund, the amount they’ve contributed, and the number of contributions. Just add <code>?include_donors=true</code> to your query string to get the additional information. Example: <code>https://demo.donortools.com/settings/funds/123.xml?include_donors=true</code>.</li>
+
+<li>Imports: Donor Tools now tries to guess the date format used by your import. Two-digit years are now assumed to be in the 21st century. If your dates are formatted like “02/01/2011” it’s also smart enough to guess “February 1, 2011” if you’re in the US, or “January 2, 2011” if you’re elsewhere.</li>
+
+<li>PayPal IPN: Now, when a donation IPN is received, if the <code>item_name</code> field doesn’t match an existing fund in your database, then a new fund will be created. (Previously, it would only assign the “default fund” that you had set up, ignoring the <code>item_name</code> field provided by PayPal.)</li>
+
+<li>Signin: Emails are now case-insensitive, both for signin and for password recovery.</li>
+
+<li>Smart Tags: Added the ability to query on ‘Notes’.</li>
+
+<li>Smart Tags: Conditions change based on your fiscal year. If you’re on a calendar year, the available conditions say “donated this year”, etc. If you’re on a non-calendar fiscal year, the conditions change to “donated this fiscal year”, etc.</li>
+
+<li>Smart Tags: Provide better notifications when there is an error, and allow the tag to be edited to correct the problem.</li>
+
+<li>Tags: Now, renaming a tag to the same name as another tag will merge the two tags together.</li>
+
+<li>Several minor bug fixes and improvements.</li>
+</ul>
+
+<h2 id="151_released_may_18_2011">1.5.1, released May 18, 2011</h2>
+
+<ul>
+<li>Maintenance release - many bugfixes and improvements related to the Rails 3 release.</li>
+
+<li>Addressed a performance regression introduced in 1.5.0.</li>
+
+<li>Fixed a problem with setting tags in Internet Explorer 9.</li>
+</ul>
+
+<h2 id="150_released_may_11_2011">1.5.0, released May 11, 2011</h2>
+
+<ul>
+<li>Rails 3 compatibility</li>
+</ul>
+
+<h2 id="147_released_may_6_2011">1.4.7, released May 6, 2011</h2>
+
+<ul>
+<li>New feature: Added the ability to specify custom data types.</li>
+
+<li>Donor Overview page now shows donations displayed by Fiscal year instead of only by calendar year. (By popular request).</li>
+</ul>
+
+<h2 id="146_released_may_4_2011">1.4.6, released May 4, 2011</h2>
+
+<ul>
+<li>Audit History: Improved the wording of audits when updating records.</li>
+
+<li>CRM: Add more consistent information to the sidebar when working on People records. Display “do not mail”, etc. information under the vcard in the sidebar for a donor.</li>
+
+<li>CRM: Added address type to address block on donor reports.</li>
+
+<li>CRM: Added fields for Gender, Birth Date, Do not email, and Do not call.</li>
+
+<li>Fundraising pages: Added an embeddable view for your fundraising pages. You can embed your donation pages in an iframe using a stripped-down version of the page. For example, if your page’s web address is https://demo.donortools.net/my/funds/14229-School-Fund, simply add “.iframe” to the end of the web address, like this: https://demo.donortools.net/my/funds/14229-School-Fund.iframe. You can load this page in an iframe to embed the content on your website. You can also get a fundraising thermometer (if you’ve set a goal for the fund) by adding “/thermometer.iframe” to the end of the fund’s web address, like this: https://demo.donortools.net/my/funds/14229-School-Fund/thermometer.iframe. Other options:
+<ul>
+<li>custom_css: specify the full url to your own CSS file.</li>
+
+<li>show_thermometer: set to “true” to show the fundraising thermometer (if the Fund’s goal is set).</li>
+
+<li>show_paypal: set to “true” to show the PayPal donation_form.</li>
+</ul>
+</li>
+
+<li>Import Tool: Improved speed and efficiency of importing large files. Added support for OpenOffice and newer Excel spreadsheet files.</li>
+
+<li>Important dates: Upcoming anniversaries are now in the correct order</li>
+
+<li>Importing data: Added the ability to specify “Is Company” when importing People. Fixed cache expiration when importing data.</li>
+
+<li>Improved PayPal IPN receptor performance by eliminating unnecessary database activity.</li>
+
+<li>Improved performance of certain smart tags.</li>
+
+<li>Improved the performance of clearing cached items under heavy load.</li>
+
+<li>New accounts now come pre-packaged with “LYBUNTs” Smart Tag.</li>
+
+<li>PayPal: Fixed a problem where transaction notifications from PayPal with a capitalized email address would result in an error.</li>
+
+<li>Reports: Added additional fields to donations export.</li>
+
+<li>Reports: Added batch number to donation export.</li>
+
+<li>Reports: Added indication for “draft email sent”</li>
+
+<li>Reports: Display donation summary information by Fiscal Year on the donor overview report.</li>
+
+<li>Smart Tags: Added smart tag conditions for “Do not Mail”, etc.</li>
+
+<li>Tags: Fixed a problem where you couldn’t build a smart tag to query for tags with numbers in their names.</li>
+
+<li>Fixed a bug that sometimes caused undoing an import to fail if there are any soft credits associated with the import.</li>
+
+<li>Fixed a bug that wouldn’t let you upgrade from the Free plan to the Starter plan.</li>
+
+<li>Fixed a problem where donation counts were sometimes not correct on pledges.</li>
+
+<li>Various other bugfixes and minor improvements.</li>
+</ul>
+
+<h2 id="145_released_march_14_2011">1.4.5, released March 14, 2011</h2>
+
+<ul>
+<li>Acknowledgements: “Formal Salutation” field now returns the friendly salutation if the formal salutation would be blank.</li>
+
+<li>Acknowledgements: Added button for “Send with Your Email Client”. Now you can send your thank you emails from your own email account instead of through Donor Tools’ mail sender.</li>
+
+<li>Acknowledgements: Fixed a bug where “Send with Your Email Client” would not work in Internet Explorer if the “cc” field is blank.</li>
+
+<li>Acknowledgements: Improved the display of thank-you letter preview. Now it looks a lot more like the final PDF.</li>
+
+<li>Audits: Added the ability to browse the audit records for any given user.</li>
+
+<li>Audits: Fixed a bug where audits were being created in duplicate for online donations through PayPal.</li>
+
+<li>Audits: Fixed a bug where extra audit records were being created when a thank-you email was delivered.</li>
+
+<li>Audits: Fixed a caching issue on user audits</li>
+
+<li>Billing: Display the current subscription plan on the billing table, even if it’s not a public plan.</li>
+
+<li>Browser Issues: Fixed a javascript that would result in an error “Done, but with errors on page” in Internet Explorer.</li>
+
+<li>Bugs: Fixed a bug where browsing to an incorrect url like /personas/test.gif would raise a 500 application error.</li>
+
+<li>Donor Self Service: Fixed a bug that prevented a donor from editing their own data using Donor Self Service when any of their attributes (address, etc.) were blank.</li>
+
+<li>Donor Self Service: Major performance improvements when viewing fundraising pages and organization profile page.</li>
+
+<li>Help Desk: Tighter integration with Zendesk Help Desk and Knowledge Base.</li>
+
+<li>Import: Fixed a bug where importing a file with tags replaces tags on existing donors instead of appending them.</li>
+
+<li>Import: If over the limit, import tool should create new funds and sources as “archived”.</li>
+
+<li>PayPal: Donations are no longer created immediately after returning to the ThankYou page. Instead, a provisional receipt is shown.</li>
+
+<li>PayPal: Fixed a bug that would cause an error if PayPal item_name has a single parentheses mark.</li>
+
+<li>PayPal: Fixed a bug where the first fund would be selected instead of the default fund if the item_name parameter was blank.</li>
+
+<li>PayPal: Fixed a problem where looking up a fund with an alias containing a dollar sign (“$”) would not work.</li>
+
+<li>PayPal: Fixed an issue where PayPal donations were duplicated in rare cases.</li>
+
+<li>PayPal: Improved the way sources are looked up for PayPal.</li>
+
+<li>Performance and caching improvements.</li>
+
+<li>Pledges: Added the ability to download donations reports in cash, accrual, or pledges basis.</li>
+
+<li>Pledges: Fixed a problem where a donation would always be recorded against an outstanding pledge, regardless of what was selected in the donation form.</li>
+
+<li>Pledges: Fixed an error calculating pledge schedule.</li>
+
+<li>Pledges: Fixed an issue where recording a payment on a pledge wouldn’t properly clear the cache.</li>
+
+<li>Pledges: If a donor has outstanding pledges, automatically assign a new donation to that pledge unless the user selects otherwise. Fixed a problem where you couldn’t edit the source of a donation that is attached to a pledge.</li>
+
+<li>Pledges: Open pledges beta.</li>
+
+<li>Quickbooks: Added an option to specify your organization’s sales tax account. This enables you to import IIF files when your organization has sales tax enabled in Quickbooks.</li>
+
+<li>QuickBooks: Added donations count to Quickbooks export dialog</li>
+
+<li>Quickbooks: Added the ability to specify an alternate date format for Quickbooks export.</li>
+
+<li>QuickBooks: Export the transaction_id instead of the Check number if available.</li>
+
+<li>Quickbooks: Fixed a problem where IIF file wasn’t importing the check number correctly (due to a mistake in QuickBooks documentation).</li>
+
+<li>QuickBooks: Improved wording and links to help on Quickbooks Settings page.</li>
+
+<li>Removed Amazon widgets from donate now pages</li>
+
+<li>Removed email footer for paying accounts.</li>
+
+<li>Removed Internet Explorer css requirement</li>
+
+<li>Reports: Added phone number to People report.</li>
+
+<li>Reports: Added pledge data to receipt page. Added the ability to hide PayPal transaction fees from the receipt.</li>
+
+<li>Reports: Compress the display of tags on the Persona report to save space.</li>
+
+<li>Reports: Display all addresses on the people report.</li>
+
+<li>Reports: Fixed overlapping text on printed Personas report.</li>
+
+<li>Reports: Improved performance on personas report</li>
+
+<li>Reports: Improved reporting for pledges. Improved performance when browsing donations.</li>
+
+<li>Reports: Improved sorting options for People report.</li>
+
+<li>Reports: Improved the printed version of the donor index report.</li>
+
+<li>Revamped system alert messages for better appearance on donor self service pages.</li>
+
+<li>Search: Added the ability to search for a person by Donor ID.</li>
+
+<li>Sources: Fixed a bug where deleting a source with nested sources underneath it would result in donations belonging to the nested source becoming unassociated with a source.</li>
+</ul>
+
+<h2 id="144_released_january_31_2011">1.4.4, released January 31, 2011</h2>
+
+<ul>
+<li>New: Added a “Find Duplicates” feature. From the People report, click “Look for Duplicates” in the sidebar.</li>
+
+<li>Added links to help site-wide</li>
+
+<li>Added somewhat better error messaging for file uploads.</li>
+
+<li>Fixed a bug where donation amounts weren’t showing up in Firefox.</li>
+
+<li>Fixed a pagination bug with viewing donations on a persona’s record, where all the donations weren’t being displayed.</li>
+
+<li>Fixed a problem where page caches weren’t cleared after merging two donors, potentially causing the merged donor to still apperar in the list.</li>
+
+<li>Fixed a problem with letterheads where you couldn’t change the font size in thank-you letters.</li>
+
+<li>Fixed an error where you could not preview letterheads</li>
+
+<li>Fixed markdown link parsing for fund pages.</li>
+
+<li>Import Tool: Fixed a rare error affecting imported Excel files where the import would fail if any column contained the formula “=TRUE()”.</li>
+
+<li>Pledges: Fixed a pagination problem with the Donations report, when showing the Accrual method (donations including pledges), which sometimes wouldn’t show all the pledges for the selected date range.</li>
+
+<li>Pledges: Fixed a problem when reporting on the Accrual method for a Fiscal Year.</li>
+
+<li>Pledges: Fixed the output of the expected pledge schedule.</li>
+
+<li>Removed extra commas from addresses</li>
+
+<li>Smart Tags: Fixed a bug that would return wrong results when searching for donations with blank memo fields.</li>
+</ul>
+
+<h2 id="143_released_january_16_2011">1.4.3, released January 16, 2011</h2>
+
+<ul>
+<li>Thank-you Emails: Now you can save thank-you emails without sending them. Emails are saved as “Draft” until you click the “Send” button.</li>
+
+<li>Improved/Fixed: Merging two people together no longer results in duplicated attributes - e.g. Merging “Joe Donor” with “Joe Donor” will result in one donor named “Joe Donor”, instead of one donor with two names - “Joe Donor” and “Joe Donor”.</li>
+
+<li>Import Tool: Now you can re-import data into your Donor Tools database. You can import a file that updates existing records in your Donor Tools donor database. This is helpful for doing bulk contact updates and NCOA change of address updates.</li>
+
+<li>Import Tool: Fixed a problem where zip/postal codes were sometimes imported as floating point numbers (e.g. “12345.0”)</li>
+
+<li>Import Tool: Now you will be notified by email if your import process fails.</li>
+
+<li>Added an easier way to grant access to the Donor Tools Support User. Now, navigate to Settings, Users, and click “Invite Support User”. To revoke access, simply click “Revoke Support User Access”</li>
+
+<li>Restored per-page selector for the People report.</li>
+
+<li>Beta: Added pledge columns to export file.</li>
+
+<li>Changed dashboard chart to show last year’s income line by default.</li>
+
+<li>Fixed a bug in importing files where specifying “Whole Name”, would cause the import to fail if any row contained a blank Whole Name.</li>
+
+<li>Fixed a bug in viewing letterheads when no advanced settings are set.</li>
+
+<li>Fixed a bug where Anonymous donors might be imported to the wrong persona.</li>
+
+<li>Fixed a problem that would happen when upgrading if your ‘next renewal on’ date was blank.</li>
+
+<li>Fixed a problem with importing where including a row with blank tags would cause the import to fail.</li>
+
+<li>Fixed a problem with viewing email index.</li>
+
+<li>Fixed layout for PayPal page. Removed support for new Amazon Payments gateways.</li>
+
+<li>Fixed redirection after updating payment gateway.</li>
+
+<li>Fixed wording on reset password form.</li>
+</ul>
+
+<h2 id="142_released_december_29_2010">1.4.2, released December 29, 2010</h2>
+
+<ul>
+<li>Fixed a bug that raised an error when downloading donations from a smart tag report.</li>
+
+<li>Fixed a bug where soft credits were not deleted when a donation was deleted</li>
+
+<li>Removed faulty ‘quarter’ option from pledges. For every quarter, use ‘every 3 months’ instead</li>
+
+<li>Fixed links to images in PayPal donation widget.</li>
+
+<li>Improved Search: It is now possible to search for people based on partial match of legacy id (instead of exact match).</li>
+
+<li>Impvorved: Letterheads are now 10 times easier to manage. Now you can set margins and other common settings, all by yourself! Click the Settings tab, then click “Letterheads” to get started.</li>
+
+<li>New Smart Tag: Added a smart tag condition to search on donation memos.</li>
+
+<li>New: XML API for funds/show. You can now access your fund information that is available publicly via XML.</li>
+
+<li>Updated web browser requirements warning when using an unsupported browser. Now it only shows up on the Dashboard page</li>
+</ul>
+
+<h2 id="141_released_december_11_2010">1.4.1, released December 11, 2010</h2>
+
+<h3 id="new_features__improvements">New Features &amp; Improvements</h3>
+
+<ul>
+<li><strong>Improved the display of currency</strong> for Euros and other currencies, especially with donations recorded in a different currency than the organization’s default.</li>
+
+<li>Improved: Added phone extension and address types to exported CSV file.</li>
+
+<li>Improved: Added <em>smart tags</em> for “donated to fund” and “donated to source”</li>
+
+<li>Improved: Added <em>smart tag</em> for “donated in year”</li>
+
+<li>Improved: <strong>Exporting</strong> large donations datasets now processes in the background, and is more efficient</li>
+
+<li>New feature: Added the ability to <strong>extend your free trial</strong> up to five times.</li>
+
+<li>New feature: Added <strong>“Print This”</strong> button to every page that can be printed.</li>
+
+<li>Added support for Markdown formatting to Fund pages. Added the ability to display donations and donors on a Fund page. <br />Example: {% for donor in donors %} 1. {{ donor.recognition_name }} {% endfor %}</li>
+
+<li>Added the ability for users to update their email and password under my.donortools.com.</li>
+</ul>
+
+<h3 id="bug_fixes">Bug Fixes</h3>
+
+<ul>
+<li>Fixed: Browsing to a donation that has been deleted now returns “404” instead of “500” errors</li>
+
+<li>Fixed a bug where fund pages were not properly updated when a donation was switched from one fund to another.</li>
+
+<li>Fixed a bug in imports that sometimes caused the import to fail with errors if a field contained the wrong datatype; for example, if the “State” field mistakenly contained a Zip/Postal code.</li>
+
+<li>Fixed a bug that affected organizations using non-USD currency; a donation recorded would sometimes be recorded incorrectly as “USD” instead of the organization’s default currency.</li>
+
+<li>Fixed a but in imports that sometimes assigned the “title” of a note to the value of the first row (e.g. heading), even if the “first row contains column headings” option was not checked.</li>
+
+<li>Fixed a problem where the People report wasn’t properly updated when deleting or creating a smart tag.</li>
+
+<li>Fixed a problem with form labels where form labels were sometimes not shown when you clicked the “Add address” button.</li>
+
+<li>Fixed an error in importing an Excel that sometimes occurred when a field contains a formula.</li>
+
+<li>Fixed a bug in imports that was causing personas to be created with an added blank name whenever there was a “Notes” field attached.</li>
+
+<li>Fixed a problem where account limits (funds and sources) were sometimes calculated incorrectly.</li>
+
+<li>Fixed a problem with time zones affecting some smart tag queries.</li>
+
+<li>Fixed a problem where Managers were unable to update their own email address.</li>
+
+<li>Fixed a bug where cache was not properly cleared when deleting records, causing data to appear to not be deleted, even though it was.</li>
+</ul>
+
+<h2 id="140_released_november_06_2010">1.4.0, released November 06, 2010</h2>
+
+<ul>
+<li>New Feature: Multi-year donation charts! Dashboard chart now shows multiple years of data overlaid. You can toggle years on and off to compare your income for any two or more years.</li>
+
+<li>New Smart Tags: Query Donations by letter or email.</li>
+
+<li>Fixed a bug that sometimes occurred when deleting and re-attaching the exact same logo or heading image.</li>
+
+<li>Fixed a bug that occurred when browsing donations by fund and fiscal year.</li>
+
+<li>Fixed a bug when relationship type is left blank.</li>
+
+<li>Fixed a bug with Chinese characters in IPN messages. For IPN messages with Chinese characters, try to fall back on the default encoding if decoding fails.</li>
+
+<li>Fixed a problem with specifying multiple recipients in emails.</li>
+
+<li>Fixed: PayPal IPN now correctly assigns non-USD currency.</li>
+
+<li>Fixed a bug in undoing imports that sometimes resulted in orphaned donations.</li>
+
+<li>Fixed an error that occurred when importing Excel files with legacy id stored as a floating point numeric data type.</li>
+
+<li>Numerous other minor fixes and improvements.</li>
+
+<li>Improved: Added better error messages when letter or email bodies contain a mail merge syntax error.</li>
+
+<li>Improved: On tax receipt, company name is listed first if donor is listed as a company.</li>
+
+<li>Changed security policy: Removed “remember me” option; session times out after 60 minutes.</li>
+
+<li>Changed signup procedure. Now, when signing up for a new Donor Tools account, you are required to confirm your account by clicking a link in your welcome email before you can access your account.</li>
+</ul>
+
+<h2 id="139_released_september_24_2010">1.3.9, released September 24, 2010</h2>
+
+<ul>
+<li>New Feature: Added the ability to track payment notifications from PayPal and Amazon.</li>
+
+<li>API: Added API endpoints for Types, SoftCredits.</li>
+
+<li>Fixed a problem where clicking on a tag would sometimes not display the other tags attached to a person.</li>
+
+<li>Fixed a problem where resetting your password sometimes redirected you to a “404” page.</li>
+
+<li>Fixed a problem where saving a user would sometimes fail without giving you a reason why.</li>
+
+<li>Fixed broken link to change password</li>
+
+<li>Improved performance when undoing an import. Large imports now take only a couple of seconds to undo.</li>
+</ul>
+
+<h2 id="138_released_20100910">1.3.8, released 2010-09-10</h2>
+
+<h3 id="new_features_2">New Features</h3>
+
+<ul>
+<li><strong>Relationships</strong>: Now you can easily create relationship links between donors in your database. <a href="../data-management/10-relationships/index.html">More information</a>.</li>
+</ul>
+
+<h3 id="improvements__fixes">Improvements &amp; Fixes</h3>
+
+<ul>
+<li>Fixed a bug where adding a user was case-sensitive, sometimes causing existing users not to be recognized.</li>
+
+<li>Fixed a dependency issue that prevented donations with soft credits from being deleted.</li>
+
+<li>Fixed a problem that sometimes caused mail merge fields to be blank when sending automatic acknowledgements for paypal donations.</li>
+
+<li>Improved search results for autosuggest used with soft credits and relationships.</li>
+</ul>
+
+<h2 id="137_released_20100909">1.3.7, released 2010-09-09</h2>
+
+<h3 id="new_features_3">New Features</h3>
+
+<ul>
+<li><strong>Soft Credits</strong>. Donations can now be soft-credited to one or more other people in your database. <a href="../data-management/09-soft-crediting-a-donation/index.html">More information</a>.</li>
+
+<li><strong>Single Sign-in</strong>. Now you can access all your Donor Tools accounts using one user account.</li>
+</ul>
+
+<h3 id="thankyou_emails">Thank-you Emails</h3>
+
+<ul>
+<li>Thank-you Emails: Added “CC” (courtesy copy) field to emails.</li>
+
+<li>Thank-you Emails: Emails now come from the organization, instead of from the currently signed-in user.</li>
+</ul>
+
+<h3 id="smart_tags_3">Smart Tags</h3>
+
+<ul>
+<li>Added Smart Tag Conditions
+<ul>
+<li>Date created</li>
+
+<li>Last activity</li>
+</ul>
+</li>
+
+<li>Added new Smart Tag Operators
+<ul>
+<li>Before (date)</li>
+
+<li>After (date)</li>
+
+<li>In the past… (date range)</li>
+
+<li>In the next… (date range)</li>
+
+<li>In the year…</li>
+
+<li>Not in the past… (date range)</li>
+
+<li>Not in the next… (date range)</li>
+
+<li>Not in the year…</li>
+</ul>
+</li>
+</ul>
+
+<h3 id="api_2">API</h3>
+
+<ul>
+<li>API: Added support for creating organizations with embedded users.</li>
+
+<li>API: Added basic support for nested sources.</li>
+
+<li>API: Allow creating personas through the Donations API.</li>
+
+<li>API: Allow donations to be posted with “splits” instead of “splits_attributes”</li>
+
+<li>API: Added the ability to embed persona attributes in a soft credit. Added duplicate checker. To create or assign a persona to a soft credit, pass their attributes through <pre style="border: solid 3px red; background-color: pink" class="markdown-html-error">Maruku could not parse this XML/HTML: &#x000A;&lt;find-or-create-persona&gt; like this:</pre></li>
+
+<li>API: Funds can now be passed through Donation API by name.</li>
+</ul>
+
+<h3 id="everything_else">Everything Else</h3>
+
+<ul>
+<li>Donations: Added the ability to group donations together by batch. Simply enter a batch number in the donation form, and donations will be grouped by batch on the donation report.</li>
+
+<li>Import Tool: Added better warning messages when importing duplicate records.</li>
+
+<li>Donation Gateways: Disabled Amazon Simple Pay for new accounts. Our implementation was problematic and needs to be re-written. Existing Simple Pay users can continue to use the integration but may experience duplication of donors.</li>
+
+<li>Fixed a bug where deleting a tag would sometimes not update the display of tags on the donor list.</li>
+
+<li>Fixed an error that would happen if you accidentally hit the backslash key (“&quot;) when doing a search.</li>
+
+<li>Numerous other bugfixes and small improvements.</li>
+</ul>
+
+<h2 id="136_released_20100702">1.3.6, released 2010-07-02</h2>
+
+<h3 id="new__interesting">New &amp; Interesting:</h3>
+
+<ul>
+<li>Brand new Dashboard charts.</li>
+
+<li>New Donor Overview page now shows informative charts, relevant statistics, address information, giving history, and audit history, all on one page.</li>
+
+<li>New Donation Receipt page. The receipt is formatted like an invoice, and shows the organization’s name, address, and tax id (if present), the donor’s name and address, the donation’s unique id, the details of the donation, and the organization’s tax message (if present). In any report, click on the amount of a donation to view the Donation Receipt.</li>
+
+<li>Redesigned Donation form.</li>
+
+<li>Improved sorting options for the People report. Now you can sort by “Last Activity”.</li>
+
+<li>Nicer buttons and form controls</li>
+</ul>
+
+<h3 id="import_tool">Import Tool:</h3>
+
+<ul>
+<li>The import tool now automatically checks for duplicate records, based on name and address. If it detects a duplicate record, it won’t import the donor from that line. The duplicate checker is smart, so if you’re importing a mixed file (with a donor and donation listed on the same line), it will import the donation, but not the duplicate donor.</li>
+
+<li>You can now import a “whole_name” column with names listed last name first, such as “Donor, Mr. &amp; Mrs. Joe and Jane”. (The “whole_name” column can also be listed like “Mr. &amp; Mrs. Joe and Jane Donor”.) The import tool will parse the whole_name column into its name parts, including prefix, first name, last name, and suffix.</li>
+
+<li>Improvement to Import tool: When importing donations with a transaction id, Donor Tools will skip records that match an existing transaction id in your Donor Tools database. This is handy for avoiding duplicates when importing donations from PayPal and other payment sources.</li>
+
+<li>If transaction fees are listed as negative (such as from a PayPal report), the import tool now records the fee appropriately.</li>
+</ul>
+
+<h3 id="thankyou_letters__emails">Thank-you Letters &amp; Emails</h3>
+
+<ul>
+<li>Return address is no longer transformed into uppercase.</li>
+
+<li>Added mail merge fields for donations_this_month, donations_last_month, donations_this_week, donations_last_week</li>
+</ul>
+
+<h3 id="report_exports">Report Exports:</h3>
+
+<ul>
+<li>Added fields in people.csv export for:
+<ul>
+<li>First donation (date and amount)</li>
+
+<li>Number of donations</li>
+
+<li>Record created</li>
+
+<li>Record last updated</li>
+</ul>
+</li>
+
+<li>Added the following fields to the donations.csv export:
+<ul>
+<li>Total Donations This Year</li>
+
+<li>Total Donations Last Year</li>
+
+<li>Total Donations (All Time)</li>
+
+<li>Average Donation</li>
+
+<li>Max Donation</li>
+
+<li>Min Donation</li>
+
+<li>Donor Tags</li>
+
+<li>Donor Smart Tags</li>
+
+<li>If a donor has multiple email addresses, the report now exports all the email addresses, separated by a comma.</li>
+
+<li>Transaction Id</li>
+
+<li>Transaction Fee</li>
+</ul>
+</li>
+</ul>
+
+<h3 id="quickbooks_export">Quickbooks Export:</h3>
+
+<ul>
+<li>Updated Quickbooks IIF export for better compatibility with Quickbooks for Mac.</li>
+
+<li>When a donation amount is negative (i.e. refund), it is now recorded as a CREDIT MEMO, not a CASH SALE.</li>
+
+<li>Fixed an issue with Quickbooks Export caused by donations with memo fields containing multiple lines of text. Multi-line memo fields are now exported on a single line in IIF export files.</li>
+</ul>
+
+<h3 id="smart_tags_4">Smart Tags</h3>
+
+<ul>
+<li>Added “does not contain” option</li>
+
+<li>Added conditions:
+<ul>
+<li>Total Donations This Year</li>
+
+<li>Total Donations Last Year</li>
+
+<li>Transaction ID</li>
+
+<li>Transaction Fee</li>
+</ul>
+</li>
+</ul>
+
+<h3 id="more_features__fixes">More Features &amp; Fixes:</h3>
+
+<ul>
+<li>Improved the usability of large data tables - now you can click anywhere in the table row to go to the record that you’re looking at.</li>
+
+<li>Renamed the “Donors” tab to “People”</li>
+
+<li>Navigation and controls now more consistent site-wide</li>
+
+<li>Fixed an issue where changing a donor’s name sometimes would not update their name in the donation reports.</li>
+
+<li>Fixed an issue that sometimes resulted in errors when a donation split had been added or removed.</li>
+
+<li>Improved the UI for the Notes feature</li>
+
+<li>Fixed the display of important_dates - now it only shows the anniversary if the date is in the past</li>
+
+<li>Improved Donor Merge feature. Searching for potential duplicates now brings up more results. You can also search by donor ID to bring up an exact match. The donor id is found in the URL, for example in the URL https://demo.donortools.com/personas/12345, “12345” would be the donor id.</li>
+
+<li>Paypal IPN notifications are no longer rejected if your public page is disabled.</li>
+</ul>
+
+<h2 id="135_released_20100309">1.3.5, released 2010-03-09</h2>
+
+<ul>
+<li>Added additional fields in downloadable CSV files.</li>
+
+<li>Fixed a problem affecting PDF letters when the organization’s logo is a PNG image containing transparency.</li>
+
+<li>Added fields for Formal salutation and Recognition Name. Donor salutation now defaults to the first name instead of Mr. Donor.</li>
+
+<li>Added smart tag condition for searching by company name.</li>
+
+<li>Added transaction fee, transaction id, and twitter username options to the donation import tool.</li>
+
+<li>Improved Donor Merge feature. Searching for potential duplicates now brings up more results. You can also search by donor ID to bring up an exact match. The donor id is found in the URL, for example in the URL https://demo.donortools.com/personas/12345, “12345” would be the donor id.</li>
+
+<li>Fixed an issue where donation receipts would not display if an organization had disabled their public page.</li>
+
+<li>Improved the display of important_dates - now it only shows the anniversary if the date is in the past.</li>
+</ul>
+
+<h2 id="134_released_20100210">1.3.4, released 2010-02-10</h2>
+
+<ul>
+<li>Added TwitterUsernames, basic twitter search functionality. Now you can see a donor’s recent tweets on their dashboard page.</li>
+
+<li>Fixed an issue with Quickbooks IIF files where transaction fees were output unnecessarily.</li>
+
+<li>Added a Donation Type for “Network for Good”.</li>
+</ul>
+
+<h2 id="133_released_20100203">1.3.3, released 2010-02-03</h2>
+
+<ul>
+<li>Upgraded Feature: Import Tool. Now you can import donations as well as donors from old databases. Supports importing Donors, Donations, and Mixed (donors and donations together) files in CSV and Excel format.</li>
+</ul>
+
+<h2 id="132_released_20091222">1.3.2, released 2009-12-22</h2>
+
+<ul>
+<li>Improved: When donating online via PayPal, Donor Tools now displays the donation receipt immediately without having to sign in or create a Donor Signin account.</li>
+
+<li>Improved: Added PayPal fraud detection to prevent fraudulent donations from being recorded.</li>
+
+<li>New: Now you can embed YouTube videos in your public profile page simply by pasting the URL of the video.</li>
+
+<li>Added keyboard shortcuts: Ctrl+h - Dashboard Ctrl+p - Donors Ctrl+d - Donations Ctrl+t - Tags Ctrl+s - Settings Ctrl+n - New Donor</li>
+</ul>
+
+<h2 id="131_released_20091114">1.3.1, released 2009-11-14</h2>
+
+<ul>
+<li>Fixed a few minor cosmetic bugs when creating Smart Tags.</li>
+
+<li>Fixed a bug with smart tags that would cause a system error when saving a smart tag with a blank value.</li>
+
+<li>Numerous bug fixes.</li>
+</ul>
+
+<h2 id="130_released_20091015">1.3.0, released 2009-10-15</h2>
+
+<ul>
+<li>New Feature: Smart Tags.</li>
+
+<li>New Feature: Mass tagging. Now you can apply one or more tags to a group of donors by clicking “Assign Tags” on the Donors report.</li>
+
+<li>Numerous performance improvements.</li>
+
+<li>Numerous usability improvements and changes to the UI to improve consistency.</li>
+</ul>
+
+<h2 id="129_released_20090930">1.2.9, released 2009-09-30</h2>
+
+<ul>
+<li>Numerous bug fixes and small improvements.</li>
+
+<li>Added datepicker to donations report. No more typing in awkward dates! Just click on the date from the calendar popup.</li>
+
+<li>Upgraded to Rails 2.3.4</li>
+</ul>
+
+<h2 id="128_released_20090815">1.2.8, released 2009-08-15</h2>
+
+<ul>
+<li>Improved performance by caching donors, donations, and audit records.</li>
+
+<li>Numerous performance improvements and bug fixes.</li>
+</ul>
+
+<h2 id="127_released_20090815">1.2.7, released 2009-08-15</h2>
+
+<ul>
+<li>Upgraded to rails 2.3.3</li>
+</ul>
+
+<h2 id="126_released_20090726">1.2.6, released 2009-07-26</h2>
+
+<ul>
+<li>Added iPhone web interface.</li>
+</ul>
+
+<h2 id="125_released_20090619">1.2.5, released 2009-06-19</h2>
+
+<ul>
+<li>Bug fixes and minor enhancements.</li>
+</ul>
+
+<h2 id="124_released_20090520">1.2.4, released 2009-05-20</h2>
+
+<ul>
+<li>Enhancement: Now you can query your donations by fiscal year. This is useful for organizations that have a fiscal year start date other than January 1.</li>
+</ul>
+
+<h2 id="123_released_20090518">1.2.3, released 2009-05-18</h2>
+
+<ul>
+<li>Added API functionality on Personas and Donations.</li>
+</ul>
+
+<h2 id="122_released_20090503">1.2.2, released 2009-05-03</h2>
+
+<ul>
+<li>Added support for Amazon Simple Pay.</li>
+</ul>
+
+<h2 id="121">1.2.1</h2>
+
+<ul>
+<li>Improved efficiency of exporting large datasets. Now, if your export will be large, it is processed in the background.</li>
+</ul>
+
+<h2 id="120_released_20090416">1.2.0, released 2009-04-16</h2>
+
+<ul>
+<li>Added important dates feature. [#162 state:resolved])</li>
+
+<li>Added type to phone_number, email_address, web_addresses for persona form fields. Added phone extension.)</li>
+
+<li>Numerous bug fixes and minor improvements.</li>
+</ul>
+
+<h2 id="114_released_20090406">1.1.4, released 2009-04-06</h2>
+
+<ul>
+<li>Added export donations button to donor report page</li>
+
+<li>Enhancement: Now, when you write a letter or email, you can populate the body of your message with the text from one of the last several messages that you’ve sent.</li>
+
+<li>Applied pagination for long donations reports.</li>
+
+<li>Improved Feature: Now you can use your own letterhead with PDF Thank-you letters! We can put just about any letterhead into your template. Just email us at support@donortools.com, and we’ll build your template for you with your custom letterhead.</li>
+</ul>
+
+<h2 id="113_released_20090309">1.1.3, released 2009-03-09</h2>
+
+<ul>
+<li>Enhancement: Added dates and archive option to Funds and Sources.</li>
+
+<li>Added fundraising thermometer on donation page.</li>
+</ul>
+
+<h2 id="112_released_20090123">1.1.2, released 2009-01-23</h2>
+
+<ul>
+<li>Upgraded to Rails 2.2.2</li>
+
+<li>Fixed a bug where Invoice sometimes shows the wrong subscription period.</li>
+</ul>
+
+<h2 id="111_released_20091226">1.1.1, released 2009-12-26</h2>
+
+<ul>
+<li>Added Sources feature. Now you can track where your donations come <em>from</em> with Sources, as well as where your money goes <em>to</em> with funds.</li>
+
+<li>Added CSV export feature - download your database in CSV format.</li>
+</ul>
+
+<h2 id="110_released_20091209">1.1.0, released 2009-12-09</h2>
+
+<ul>
+<li>Added Audits feature. Every action is now logged in the audit history.</li>
+
+<li>Fixed a sorting bug on the personas report.</li>
+
+<li>Numerous other bugs fixes and improvements.</li>
+</ul>
+
+<h2 id="102_released_20081011">1.0.2, released 2008-10-11</h2>
+
+<ul>
+<li>Fixed a floating point bug that sometimes calculated the wrong amount when an amount had cents (100.01 would be incorrectly rounded to 100.00).</li>
+</ul>
+
+<h2 id="101_released_20081007">1.0.1, released 2008-10-07</h2>
+
+<ul>
+<li>
+<p>Simplified activation process for new users.</p>
+</li>
+
+<li>
+<p>Fixed a bug in SSL security certificate requirement.</p>
+</li>
+
+<li>
+<p>Added undo function for imports.</p>
+</li>
+</ul>
+
+<h2 id="100_released_20080926">1.0.0, released 2008-09-26</h2>
+
+<ul>
+<li>First release! Hello world!</li>
+</ul>
+</div>
+<div class='span-6 last'>
+<div class='righthand-nav' id='nav-about'>
+<ul>
+<li><a href="../about-us/">About Us</a></li>
+<li><a href="manifesto.html">Manifesto</a></li>
+<li><a href="press-inquiries.html">Press Inquiries</a></li>
+<li><a href="acknowledgements.html">Acknowledgements</a></li>
+<li>Version History</li>
+</ul>
+<hr>
+<h4 class='short'>Legal</h4>
+<ul>
+<li><a href="privacy-policy.html">Privacy Policy</a></li>
+<li><a href="terms-of-service.html">Terms of Service</a></li>
+<li><a href="refund-policy.html">Refund Policy</a></li>
+<li><a href="api-license.html">API License</a></li>
+</ul>
+</div>
+<hr class='clear'>
+
+</div>
+
+</div>
+</div>
+</div>
+<div class='white' id='footer'>
+<div class='container'>
+<div class='span-12'>
+<p>
+All text and images copyright &copy; 2008-<span class='this_year'>2022</span>&nbsp;Donor Tools. All rights reserved.
+</p>
+<p>
+Donor Tools&trade; is a big idea by
+<a href='https://www.higherpixels.com/'>Higher Pixels, LLC.</a>
+</p>
+</div>
+<div class='span-12 last noprint'>
+<p class='right'>
+<a href="privacy-policy.html">Privacy Policy</a>
+<span class='grey'>&bull;</span>
+<a href="terms-of-service.html">Terms of Service</a>
+<span class='grey'>&bull;</span>
+<a href='../'>
+Contact Support
+</a>
+</p>
+</div>
+</div>
+</div>
+
+</div>
+<script src="../assets/prettify/prettify-fedb55666e1691ba5932eb966d83eaf8.js" type="text/javascript"></script>
+<script src="../assets/jquery.js" type="text/javascript"></script>
+<script src="../assets/jquery-ui.js" type="text/javascript"></script>
+<script src="../assets/jquery.jfeed.js" type="text/javascript"></script>
+<script src="../assets/jquery.cookie.js" type="text/javascript"></script>
+<script src="../assets/application.js" type="text/javascript"></script>
+
+
+<script type="text/javascript" charset="utf-8">
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'https://www') + '.google-analytics.com/ga.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+  })();
+</script>
+
+</body>
+</html>

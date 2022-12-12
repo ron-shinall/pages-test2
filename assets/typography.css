@@ -1,0 +1,215 @@
+/* @override
+	https://localhost:3000/stylesheets/typography.css
+	https://www.donortools.local:3000/stylesheets/typography.css
+	https://www.donortools.dev:3000/stylesheets/typography.css
+*/
+/* @group Base Fonts */
+
+@font-face { font-family: "MuseoThree"; src: url("../fonts/Museo300-Regular.otf") format("opentype"); }
+/* A font by Jos Buivenga (exljbris) -> www.exljbris.nl */
+@font-face { font-family: "MuseoSeven"; src: url("../fonts/Museo700-Regular.otf") format("opentype"); }
+/* A font by Jos Buivenga (exljbris) -> www.exljbris.nl */
+body { font-family: "Helvetica Neue", "HelveticaNeue", "Lucida Grande", Frutiger, Univers, "Helvetica Neue", Calibri, Helvetica, Verdana, sans-serif; color: #353435; }
+h1 { font-family: MuseoSeven, "Century Gothic", "Futura Medium", "Apple Gothic", Helvetica, Arial, sans-serif; color: #2C2C2C; font-weight: normal; }
+h2,h3,h4 { font-family: MuseoSeven, "Century Gothic", "Futura Medium", "Apple Gothic", Helvetica, Arial, sans-serif; color: #2C2C2C; font-weight: normal;}
+h1 strong,h2 strong,h3 strong,h4 strong { font-family: MuseoSeven, "Century Gothic", "Futura Medium", "Apple Gothic", Helvetica, Arial, sans-serif; font-weight: normal; }
+h1 small, h1.small, h2 small, h2.small { font-family: MuseoThree, "Century Gothic", "Futura Medium", "Apple Gothic", Helvetica, Arial, sans-serif; font-weight: lighter; }
+/* @end */
+/*
+@group Horizontal Rules */
+hr { background: #ccc; color: #ccc; clear: both; float: none; width: 100%; height: 1px; margin: 0 0 16px 0; border: none; }
+hr.big, hr.tall { margin: 60px 0; clear: both; }
+hr { margin: 1em 0; background: #ddd; height: 1px; }
+hr.clear { clear: both; visibility: hidden; margin: 0; padding: 0; height: 0; }
+hr.tall { margin: 2em 0; }
+hr.space { clear: both; visibility: hidden; margin: 20px 0; padding: 0; height: 0; float: left; }
+#footer hr{
+  background: #222; color: #222;
+  margin: 2em 0;
+}
+/* @end */
+/* @group Baseline */
+/*
+   line-height = base line height in pixels / current font size in pixels
+   Base Line Height: 24px
+   Base font size: 13px
+ */
+body { font-size: 13px; line-height: 1.846em; margin: 0; padding: 0 }
+h1 { margin: 0; font-size: 2.5em; line-height: 1em; margin-bottom: 1em; }
+h2 { margin: 0; font-size: 1.462em; line-height: 1.263em; margin-bottom: 1.263em; }
+h3 { margin: 0; font-size: 1.308em; line-height: 1.412em; margin-bottom: 1.412em; }
+h4 { margin: 0; font-size: 1.154em; line-height: 1.6em; margin-bottom: 1.6em; }
+p, ul, blockquote, pre, td, th, label { margin: 0; font-size: 1em; line-height: 1.846em; margin-bottom: 1.846em; }
+p, .content li, article li { font-size: 1.1em; }
+article li p{font-size: 1em;}
+ul.p li{ margin-bottom: 1em; }
+pre {font-size: 110%; font-family: "Courier New", Courier, monospace}
+article{ clear: both; margin-bottom: 2em; float: left; width: 100%; }
+p.small { margin: 0; font-size: 0.846em; line-height: 2em; margin-bottom: 2.181em; }
+p.large { margin: 0; font-size: 1.3em; line-height: 1.6em; margin-bottom: 1.6em; }
+table { border-collapse: collapse; margin-bottom: 1.846em; }
+/* @end */
+/* @group Typographical Rules */
+.short { margin-bottom: 0; }
+span.or { padding: 0 1em; }
+.center { text-align: center; }
+p strong { font-weight: bold; }
+p.tall { margin: 3em 0; }
+div.tall {margin-bottom:3em;}
+.grey { color: grey; }
+p.intro { margin: 0; font-size: 1.308em; line-height: 1.412em; margin-bottom: 1.412em; font-family: MuseoThree, "Century Gothic", "Futura Medium", "Apple Gothic", Helvetica, Arial, sans-serif; }
+p.intro strong { font-family: MuseoSeven, "Century Gothic", "Futura Medium", "Apple Gothic", Helvetica, Arial, sans-serif; }
+dfn { border-bottom: 1px dotted #ff880d; cursor: pointer; }
+/* @end */
+.faq {  }
+.faq h4 { margin-bottom: 0; margin-top: 1em; ;font-family: MuseoSeven, "Century Gothic", "Futura Medium", "Apple Gothic", Helvetica, Arial, sans-serif; }
+#fancy_ajax .signup_container {  }
+body#error ul li { margin-left: 2em; line-height: 2.5em; }
+.about ul { margin-left: 20px; }
+/* @group Misc */
+.nowrap { white-space: nowrap; }
+#sidebar { color: #555; }
+#sidebar h1,#sidebar h2,#sidebar h3,#sidebar h4,#sidebar h5,#sidebar h6 {  }
+#sidebar h3 { margin-bottom: 0; }
+#sidebar h4 { margin-bottom: 6px; }
+p.center, div.center { text-align: center; }
+p.right, div.right { text-align: right; }
+p.left, div.left { text-align: left; }
+.red { color: #900; }
+sup,
+sub { height: 0; line-height: 1; vertical-align: baseline; _vertical-align: bottom; position: relative; font-size: 70%; }
+sup { bottom: 1ex; }
+sub { top: .5ex; }
+p.indent { margin-left: 18px; width: 60%; }
+span.indent, small.indent { padding-left: 18px; display: block; }
+a#fdbk_tab { top: auto!important; bottom: 20px!important; }
+.bottom-line { border-bottom: 1px solid #aaa; }
+.noscreen { display: none; }
+#goog-wm {  }
+#goog-wm h3.closest-match {  }
+#goog-wm h3.closest-match a {  }
+#goog-wm h3.other-things {  }
+#goog-wm ul { list-style: none; }
+#goog-wm li.search-goog { display: block; }
+dt pre { padding: 0; }
+.value-proposition { text-align: center; color: #2C2C2C; margin: 20px 0 40px 0; font: 1.6em "Helvetica Neue", Calibri, Helvetica, "Lucida Grande", Frutiger, Univers, Verdana, sans-serif; }
+.value-proposition h2 { font-size: 140%; font-weight: bold; margin: 0 0 10px 0; }
+p.tall { margin-top: 4em; margin-bottom: 4em; }
+table { border-collapse: collapse; margin-bottom: 1.818em; }
+td h2, td h3, td h4, td h5 { line-height: auto; margin: 0; }
+h1.short, h2.short, h3.short, h4.short, p.short { margin-bottom: 0; }
+h1.tiny, h2.tiny, h3.tiny, h4.tiny, p.tiny { margin: 0; }
+p.short { margin-bottom: 0; }
+h1#page_title { padding: 0; margin-bottom: 0; line-height: 36px; }
+code { padding: 2px 6px; background-color: #eee; color: #111; -webkit-border-radius: 4px; -moz-border-radius: 4px; font-family: Menlo, Monaco, "Bitstream Vera Sans Mono", sans-serif; }
+pre a { color: #a7b3ff; text-shadow: none; }
+textarea.code { font-family: Monaco, "Courier New", Courier, monospace; font-size: 10px; }
+.page .container h1 { padding: 0; letter-spacing: -1px; }
+h1 em, h1 small, h2 em, h2 small, h3 em, h3 small { font-weight: normal; }
+p.center { text-align: center; }
+p.last { margin-bottom: 0; }
+p img { float: none; margin: 18px 18px 18px 0; padding: 0; }
+img.border, article img {border: 3px solid #ccc; display:block; background: #f6f6f6; padding: 4px;}
+img.no-borders, .no-borders img{border: none; background: none;}
+img.inline{border:none; background: none; display:inline; padding: 0; margin:0; vertical-align: text-bottom; }
+.markdown img {border: 1px solid #ddd; display:block;}
+img.right { float: right; margin: 0 0 18px 18px; padding: 0; }
+p img.top { margin-top: 0; }
+a { color: #125AA7; text-decoration: underline; }
+a:hover { color: #FF6116; text-decoration: none; }
+ul, ol { margin: 0 0 18px 40px; }
+ul { list-style-type: disc; }
+ol { list-style-type: decimal; }
+ol li { margin: 0; }
+strong { font-weight: bold; }
+em { font-style: italic; }
+hr.big, hr.tall { margin: 60px 0; clear: both; }
+article table { margin-bottom: 16px; border: solid #ddd; border-width: 1px 0 0 1px; width: 100%;}
+article table th,article table td { height: 13px; padding: 2px 4px; border: solid #ddd; border-width: 0 1px 1px 0; }
+article table th { font-weight: bold; }
+.quiet { color: #666; }
+.hide { display: none; }
+.dquo { margin-left: -.7em; }
+p.incr, .incr p { font-size: 1em; line-height: 1.44em; margin-bottom: 18px; }
+.caps {  }
+blockquote p { margin: 0.5em 0; }
+big { font-size: 130%; }
+small { font-size: 80%; }
+em { font-family: Georgia, "Times New Roman", Times, serif; }
+.small em { color: #999; }
+a img { margin: 0; padding: 0; }
+.highlight { background: #FFFF99; }
+div.small { font-size: 90%; }
+.silver { color: silver; }
+.grey { color: grey; }
+.normal { font-weight: normal; }
+.grey a { color: grey; }
+.grey a:hover { color: #444; }
+.dark-grey { color: #555; }
+small.grey { font-weight: normal; }
+.black { color: #111; }
+q { background: #FFFF99; }
+tt { font-family: Courier, mono; font-weight: normal; }
+h1 tt { font-size: 80%; }
+.nowrap { white-space: nowrap; }
+.faded { color: #777; }
+
+/* @end */
+
+.orange{
+  color: #ef6700;
+}
+
+img.right{
+  float: right;
+}
+
+#about-us-version-history h2{
+  border-top: 1px solid #ccc;
+  padding-top: 1em;
+}
+#about-us-version-history h3{
+  margin-bottom: 0;
+  font-size: 1em;
+}
+
+a.link-to-userguide {
+  display: block;
+  background: url(../images/icons/drf/help.gif) no-repeat left center;
+  padding-left: 36px;
+  height: 36px;
+  line-height: 36px;
+  font-weight: bold;
+}
+
+section{
+  border-top: 1px solid #eee;
+  margin-top: 4em;
+  padding-top: 4em;
+  clear: both;
+}
+
+.api article h3, .api article h4{
+  margin-bottom: 0;
+}
+
+.indicator { line-height: 24px; font-weight: bold }
+.indicator img{
+  margin: 0;padding: 0;
+}
+
+dl.contact { clear:both; font-size: 120%;}
+dl.contact dt { width: 6em; float: left; font-weight:bold;}
+dl.contact dd { margin-left: 6em; padding-left: 1em}
+
+dl { clear:both; }
+dt { font-weight:bold;}
+dd { padding-left: 1em;}
+
+.vcard{
+  font-size: 120%;
+}
+
+#main, #heading{
+  -webkit-font-smoothing: antialiased;
+}
